@@ -3,7 +3,6 @@ import { addCommas } from "@/lib/utils";
 
 const Balance = async () => {
     const {balance} = await getUserBalance();
-    console.log('hello')
     return ( 
     <>
     <h4>Your Balance</h4>
